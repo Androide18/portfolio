@@ -1,0 +1,47 @@
+
+.content{
+    min-width: 50vw;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content div{
+    width: 50vw;
+    margin: 30px;
+}
+
+img{
+    width: 500px;
+    height: auto;
+}
+
+.centrado{
+    align-content: center;
+    justify-content: center;
+}
+
+.miperfil{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+}
+
+.nes-container.with-title.is-centered.logros{
+    font-size: 12px;
+
+}
+
+
+.nes-icon.trophy.is-large.grow:hover { 
+
+    transition: all .3s ease-in-out;
+    height:30px;
+    width:15px;
+    transform: scale(4);
+   
+    
+     }
