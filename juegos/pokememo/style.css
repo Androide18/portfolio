@@ -1,0 +1,27 @@
+body{
+    background-image: url("img/background.jpg");;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 250px;
+   
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 300px;
+
+}
+
+h3{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px 50px;
+}
